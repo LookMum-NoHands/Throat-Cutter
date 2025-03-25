@@ -8,6 +8,8 @@ This is a program to monitor the internet connection.
             2 relays to switch power to Modem and Router                                                                                                  
             Led Indicator/s  - 1x Neopixel and 1x RGB led                                                                                                                              
             Pushbutton test switches x 2   
+            uSD card for logging
+            NTP connection for accurate logging
 
 Design notes:                                                                                                                                             
         make the boot wait time approx 1 minute                                                                                                             
@@ -20,7 +22,7 @@ Design notes:
                                                               The internet is waiting for SSID response, but not yet connected                             
         buzzer tweeps when internet is depowered                                                                                                            
         buzzer tweeps when internet is repowered                                                                                                            
-        a LCD displays relevant info                                                                                                                        
+        a 64 x 128 LCD displays relevant info                                                                                                                        
                                                                                                                                                            
         The device will operate in the following manner:                                                                                                   
             The device turns on the relays to power the modem and router display a sign-on on the lcd     LCD message  1                                   
@@ -34,5 +36,5 @@ Design notes:
                 WLAN      :  1.1.1.1       (Cloud Flare)            Green                                                                                  
                 LAN       :  192.168.1.254 (Router address)         Red                                                                                    
                 Network   :  192.168.1.70  (PiHole)                 Blue    
-
+      All events are logged to the uSD card in CSV format.
                 
