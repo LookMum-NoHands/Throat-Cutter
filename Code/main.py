@@ -575,7 +575,7 @@ firmware_url   = "https://raw.githubusercontent.com/LookMum-NoHands/Throat-Cutte
 
 VARIABLES_PATH = "variables.txt"
 
-print('Welcome to you very own Throat Cutter')
+print('Welcome to your very own Throat Cutter')
 
 ota_updater    = OTAUpdater(mySSID, myPASSWORD, firmware_url, "main.py")
 
