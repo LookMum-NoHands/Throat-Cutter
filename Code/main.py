@@ -815,6 +815,7 @@ while True:
             print("we got 1")
             
         if TARGET_OTA == 2: 
+            three_beeps()
             print("1 minute OTA updates")
             ota_white.toggle()
         
