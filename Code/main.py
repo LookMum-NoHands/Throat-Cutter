@@ -724,7 +724,9 @@ else:
     print("1 minute OTA selected")
 
 ota_white.toggle() 
-   
+three_beeps()
+three_beeps()
+three_beeps()
 c = interval
 
 gc.collect()
